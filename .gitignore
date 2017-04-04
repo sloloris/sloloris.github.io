@@ -1,0 +1,15 @@
+*~
+.venv
+venv
+!.gitkeep
+node_modules/
+tmp
+.DS_Store
+.idea
+*.log
+*.map
+*.pyc
+.sass-cache/
+static/bower_components/
+static/build/
+static/stylesheets/css/
