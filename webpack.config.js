@@ -1,5 +1,6 @@
 var path = require("path");
 var webpack = require("webpack");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 process.traceDeprecation = true;
 
@@ -21,9 +22,23 @@ module.exports = {
       },
       { test: /\.json/, loader: 'json-loader'},
       { test: /\.css$/, loader: 'style-loader!css-loader' },
-      { test: /\.png$/, loader: 'url-loader?limit=100000' }
+      { test: /\.png$/, loader: 'url-loader?limit=100000' },
+
+      {
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('css-loader!sass-loader')
+      }
     ]
   },
+
+  plugins: [
+    new ExtractTextPlugin({
+      filename: 'styles.css', 
+      disable: false,
+      allChunks: true
+    })
+  ],
+
   resolve: {
     modules: ['bower_components', 'node_modules'],
     descriptionFiles: ["package.json", "bower.json"],
