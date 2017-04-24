@@ -16,7 +16,7 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2016', 'react', 'stage-0']
+          presets: ['es2016', 'es2015', 'react', 'stage-0']
         }
       },
       { test: /\.json/, loader: 'json-loader'},
