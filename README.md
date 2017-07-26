@@ -1,19 +1,5 @@
-# webreactants
-A simple Redux + Express starter project built with Webpack
-
-<p>
-To get started, first build the project:
-</p>
-
-<pre><code>
-webpack --progress --colors
-</code></pre>
+# Personal Site
+Follow here for my attempts to build a functional personal website for myself.
 
 
-<p>
-Then run locally on port 4444:
-</p>
-
-<pre><code>
-node server.js
-</code></pre>
+In the meantime, do check out my [Instagram](https://www.instagram.com/belleandcompass/) or my [LinkedIn profile](https://www.linkedin.com/in/isabelle-miller/).

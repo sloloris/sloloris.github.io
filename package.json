@@ -1,9 +1,9 @@
 {
-  "name": "webreactants",
+  "name": "Isabelle-Miller",
   "private": false,
   "version": "1.0.0",
-  "description": "React webapp starter project",
-  "repository": "",
+  "description": "personal site for Isabelle Miller",
+  "repository": "https://github.com/sloloris/personal-site",
   "license": "",
   "main": "server.js",
   "devDependencies": {},
