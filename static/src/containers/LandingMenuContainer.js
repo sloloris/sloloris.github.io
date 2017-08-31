@@ -1,8 +1,9 @@
 import { connect } from 'react-redux';
-import LandingContents from '../components/LandingContents';
+import LandingMenu from '../components/LandingMenu';
 import { setCurrentView } from '../actions'
 
 const mapStateToProps = (state, ownProps) => ({
+  menuItems: ownProps.menuItems,
   currentViewIndex: state.currentView
 })
 
@@ -11,7 +12,7 @@ const mapDispatchToProps = (dispatch) => ({
 })
 
 
-const LandingContentsContainer = connect(
+const LandingMenuContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(LandingContents)
+)(LandingMenu)
