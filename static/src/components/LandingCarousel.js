@@ -12,13 +12,13 @@ class LandingCarousel extends Component {
 
     switch(this.props.currentViewIndex) {
       case 0:
-        contents = 'ABOUT_PAGE'
+        contents = <div>ABOUT PAGE</div>
         break;
       case 1: 
-        contents = 'PORTFOLIO'
+        contents = <div>PORTFOLIO</div>
         break;
       case 2:
-        contents = 'CV'
+        contents = <div>CV</div>
         break;
 
       default:

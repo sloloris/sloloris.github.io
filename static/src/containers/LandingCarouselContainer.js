@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import LandingContents from '../components/LandingContents';
+import LandingCarousel from '../components/LandingCarousel';
 import { setCurrentView } from '../actions'
 
 const mapStateToProps = (state, ownProps) => ({
@@ -9,7 +9,7 @@ const mapStateToProps = (state, ownProps) => ({
 const mapDispatchToProps = {}
 
 
-const LandingContentsContainer = connect(
+const LandingCarouselContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(LandingContents)
+)(LandingCarousel)
