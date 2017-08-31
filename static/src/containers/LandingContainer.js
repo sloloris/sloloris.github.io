@@ -6,9 +6,7 @@ const mapStateToProps = (state, ownProps) => ({
   currentViewIndex: state.currentView
 })
 
-const mapDispatchToProps = (dispatch) => ({
-  onClickRender: (index) => {dispatch(setCurrentView(index))}
-})
+const mapDispatchToProps = {}
 
 
 const LandingContentsContainer = connect(
