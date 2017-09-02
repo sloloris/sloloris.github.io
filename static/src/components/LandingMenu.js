@@ -19,12 +19,12 @@ class LandingMenu extends Component {
 
   _getMenuItems = () => {
     return this.props.menuItems.map((menuItem, index) => {
-      var isSelected = classnames ({
-        'selected': this.props.currentViewIndex == index
+      var isSelected = classnames ('menu-item', {
+        'selected': this.props.currentViewIndex == index,
       })
 
       return (
-        <div className={isSelected} className='menu-item' key={index} 
+        <div className={isSelected} key={index} 
             onClick={ () => {this.props.onClickRender(index)} }>
               { menuItem }
         </div>

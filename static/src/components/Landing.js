@@ -10,11 +10,11 @@ class Landing extends Component {
     return(
       <div className='landing-contents'>
         <div className='menu-container'>
-          <LandingMenuContainer menuItems={['About', 'Portfolio', 'CV']} />
+          <LandingMenuContainer menuItems={['ABOUT', 'PORTFOLIO', 'CV']} />
         </div>
         <div className='carousel-container'>
           <LandingCarouselContainer 
-            viewItems={[<div className='carousel-item-text'>ABOUT</div>,
+            viewItems={[<div className='carousel-item-text'>Isabelle Miller is a software engineer for hire based in SF, CA.</div>,
                         <div className='carousel-item-text'>PORTFOLIO</div>, 
                         <div className='carousel-item-text'>CV</div> ]} />
         </div>
