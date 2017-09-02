@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class LandingCarousel extends Component {
@@ -8,7 +8,7 @@ class LandingCarousel extends Component {
 
   render() {
 
-    var currentImage = 'CURRENT_IMAGE'
+    var contents = 'PLACEHOLDER';
 
     switch(this.props.currentViewIndex) {
       case 0:
@@ -26,7 +26,7 @@ class LandingCarousel extends Component {
     }
     return(
       <div className='selected-image'>
-        { currentImage }
+        { contents }
       </div>
     )
     

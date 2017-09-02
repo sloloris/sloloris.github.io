@@ -1,17 +1,18 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import classnames from 'classnames';
 
 class LandingMenu extends Component {
 
   static propTypes = {
-    currentViewIndex = PropTypes.numbers.isRequired,
-    menuItems = PropTypes.array.isRequired,
+    currentViewIndex: PropTypes.number.isRequired,
+    menuItems: PropTypes.array.isRequired,
     onClickRender: PropTypes.func.isRequired,
   }
 
   static defaultProps = {
-    onClick: console.log('onClick oops')
+    onClickRender: console.log('oops'),
+    currentViewIndex: 0,
   }
 
   _getMenuItems = () => {
@@ -21,7 +22,8 @@ class LandingMenu extends Component {
       })
 
       return (
-        <li className={isSelected} key={index} onClick={this.props.onClick.bind(this,index)}>
+        <li className={isSelected} key={index} 
+            onClick={ () => {this.props.onClickRender(index)} }>
           <div className='menu-item'>{ menuItem }</div>
         </li>
       )
@@ -33,7 +35,7 @@ class LandingMenu extends Component {
     return(
       <div className='menu'>
         <ul className='menu-item-list'>
-          { this._getMenuitems() }
+          { this._getMenuItems() }
         </ul>
       </div>
     ) 

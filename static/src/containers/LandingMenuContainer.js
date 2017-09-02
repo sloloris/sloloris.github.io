@@ -16,3 +16,5 @@ const LandingMenuContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(LandingMenu)
+
+export default LandingMenuContainer;

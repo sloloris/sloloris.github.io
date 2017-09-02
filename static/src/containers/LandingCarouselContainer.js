@@ -1,15 +1,17 @@
 import { connect } from 'react-redux';
 import LandingCarousel from '../components/LandingCarousel';
-import { setCurrentView } from '../actions'
+import { setCurrentView } from '../actions';
 
 const mapStateToProps = (state, ownProps) => ({
   currentViewIndex: state.currentView
-})
+});
 
-const mapDispatchToProps = {}
+const mapDispatchToProps = {};
 
 
 const LandingCarouselContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(LandingCarousel)
+)(LandingCarousel);
+
+export default LandingCarouselContainer;
