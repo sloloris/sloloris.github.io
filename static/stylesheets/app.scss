@@ -2,8 +2,11 @@
 @import '../../node_modules/normalize.css/normalize.css';
 
 $success-green: #85ff85;
+$heavy-font-weight: 700;
+$light-font-weight: 300;
 
 body {
+  font-family: 'Nunito', sans-serif;
   background: white;
   display: flex;
 }
