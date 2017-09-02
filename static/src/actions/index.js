@@ -1,6 +1,8 @@
-export const setCurrentView = (index) => ({
-  type: 'SET_CURRENT_VIEW',
-  payload: {
-    index:index
-  }
-})
+export const setCurrentView = (index) => {
+  return ({
+      type: 'SET_CURRENT_VIEW',
+      payload: {
+        index:index
+      }
+  })
+}
