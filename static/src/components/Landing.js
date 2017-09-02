@@ -14,9 +14,9 @@ class Landing extends Component {
         </div>
         <div className='carousel-container'>
           <LandingCarouselContainer 
-            viewItems={[<div className='carousel-item-text'>Isabelle Miller is a software engineer for hire based in SF, CA.</div>,
-                        <div className='carousel-item-text'>PORTFOLIO</div>, 
-                        <div className='carousel-item-text'>CV</div> ]} />
+            viewItems={[<div className='carousel-item'>Isabelle Miller is a software engineer for hire based in SF, CA.</div>,
+                        <div className='carousel-item'>PORTFOLIO</div>, 
+                        <div className='carousel-item'>CV</div> ]} />
         </div>
       </div>
     )
