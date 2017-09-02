@@ -4,5 +4,18 @@
 $success-green: #85ff85;
 
 body {
-	background: $success-green;
+  background: white;
+  display: flex;
+}
+
+.landing-contents {
+
+}
+
+.menu-container {
+  flex-flow: column;
+}
+
+.carousel-image-container {
+  
 }
