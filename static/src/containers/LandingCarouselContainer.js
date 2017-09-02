@@ -3,7 +3,9 @@ import LandingCarousel from '../components/LandingCarousel';
 import { setCurrentView } from '../actions';
 
 const mapStateToProps = (state, ownProps) => ({
-  currentViewIndex: state.currentView
+  currentViewIndex: state.currentView,
+  viewItems: ownProps.viewItems,
+  viewItemNames: ownProps.viewItemNames,
 });
 
 const mapDispatchToProps = {};
