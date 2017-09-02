@@ -24,10 +24,10 @@ class LandingMenu extends Component {
       })
 
       return (
-        <li className={isSelected} key={index} 
+        <div className={isSelected} className='menu-item' key={index} 
             onClick={ () => {this.props.onClickRender(index)} }>
-          <div className='menu-item'>{ menuItem }</div>
-        </li>
+              { menuItem }
+        </div>
       )
     })
   }
@@ -35,10 +35,8 @@ class LandingMenu extends Component {
 
   render() {
     return(
-      <div className='menu'>
-        <ul className='menu-item-list'>
-          { this._getMenuItems() }
-        </ul>
+      <div className='menu-item-list'>
+        { this._getMenuItems() }
       </div>
     ) 
   }

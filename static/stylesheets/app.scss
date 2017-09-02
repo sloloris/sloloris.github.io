@@ -9,16 +9,27 @@ body {
   font-family: 'Nunito', sans-serif;
   background: white;
   display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
 
 .landing-contents {
-
+  width: 680px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
 }
 
 .menu-container {
-  flex-flow: column;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 24px;
 }
 
 .carousel-container {
-
+  font-size: 48px;
 }

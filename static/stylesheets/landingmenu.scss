@@ -1,3 +1,14 @@
 .selected {
-    
+  font-weight: 700;
+}
+
+.menu-item-list {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 680px;
+}
+
+.menu-item-list > .menu-item {
+
 }
