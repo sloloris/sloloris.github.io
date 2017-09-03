@@ -1,0 +1,20 @@
+$highlight: #6ED8C9;
+$heavy-font-weight: 600;
+$light-font-weight: 300;
+
+.experience-section-header {
+  font-weight: $heavy-font-weight;
+  border-bottom: 2px dotted $highlight;
+  width: 100%;
+  margin: 0 0 16px 0
+}
+
+
+.list {
+  font-size: 16px;
+}
+
+.see-linkedin {
+  font-size: 16px;
+  margin: 24px 0 0 0;
+}

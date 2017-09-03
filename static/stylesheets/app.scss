@@ -4,6 +4,7 @@
 $highlight: #6ED8C9;
 $heavy-font-weight: 700;
 $light-font-weight: 300;
+$hover: black;
 
 body {
   font-family: 'Nunito', sans-serif;
@@ -12,6 +13,18 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: center;
+}
+
+a {
+  color: $highlight;
+  text-decoration: inherit;
+  background: white;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+a:hover {
+  color: white;
+  background: $highlight;
+  cursor: crosshair;
 }
 
 .landing-contents {
@@ -31,11 +44,11 @@ body {
 }
 
 .logo-container {
-  padding: 48px 0 0 0;
+  margin: 48px 0 0 0;
 }
 
 .logo-img {
-  padding: 0 0 0 16px;
+  margin: 0 0 0 16px;
 }
 
 .carousel-container {
@@ -47,9 +60,4 @@ body {
   width: 720px;
 }
 
-.isabelle-miller {
-  font-weight: $heavy-font-weight;
-  display: inline-block;
-
-}
 

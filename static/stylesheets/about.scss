@@ -1,0 +1,16 @@
+$highlight: #6ED8C9;
+$heavy-font-weight: 600;
+$light-font-weight: 300;
+
+p {
+  display: inline-block;
+}
+
+.name {
+  font-weight: $heavy-font-weight;
+}
+
+.about-text {
+  font-size: 16px;
+  margin: 16px 0 0 0;
+}
