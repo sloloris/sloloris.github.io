@@ -19,6 +19,8 @@ class LandingCarousel extends Component {
     return(
       <ReactCSSTransitionGroup
           transitionName="slide"
+          transitionAppear={true} // for transition at component mount
+          transitionAppearTimeout={500}
           transitionEnterTimeout={700}
           transitionLeaveTimeout={300}>
         <div className='selected-item' key={uniqueId()}>

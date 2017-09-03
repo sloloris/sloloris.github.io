@@ -21,10 +21,9 @@ a {
   background: white;
   transition: background 0.5s ease, color 0.5s ease;
 }
-a:hover {
+.carousel-container a:hover {
   color: white;
   background: $highlight;
-  cursor: crosshair;
 }
 
 .landing-contents {
@@ -55,9 +54,10 @@ a:hover {
   font-size: 40px;
   display: flex;
   flex-flow: row;
-  padding: 0 0 0 24px;
+  padding: 0 24px;
   height: 100vh;
-  width: 720px;
+  max-width: 720px;
+  min-width: 280px;
 }
 
 

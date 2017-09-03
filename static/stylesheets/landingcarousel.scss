@@ -1,26 +1,26 @@
 .carousel-item {
-  display: inline-block;
+
 }
 
 .selected-item {
 }
 
-
 // CSS Animations
 .slide-enter {
+  opacity: 0;
   transform: translateY(100%);
 }
 
 .slide-enter.slide-enter-active {
+  opacity: 1;
   transform: translateY(0%);
-  transition: transform 700ms ease-in-out;
+  transition: opacity 700ms ease, transform 700ms ease;
 }
 
 .slide-leave {
-  transform: translateY(0%);
+  opacity: 1;
 }
 
 .slide-leave.slide-leave-active {
-  transform: translateY(-100%);
-  transition: transform 300ms ease-in-out;
+  opacity: 0;
 }

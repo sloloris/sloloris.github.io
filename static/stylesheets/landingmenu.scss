@@ -9,6 +9,10 @@
   text-align: right;
 }
 
-.menu-item-list > .menu-item {
+.menu-item-list > .menu-item:hover {
+  cursor: pointer;
+}
 
+.menu-item {
+  margin: 0 0 8px 0;
 }
