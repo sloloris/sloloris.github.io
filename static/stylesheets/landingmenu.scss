@@ -1,12 +1,12 @@
 .selected {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .menu-item-list {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: space-between;
-  width: 680px;
+  text-align: right;
 }
 
 .menu-item-list > .menu-item {
