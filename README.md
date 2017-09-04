@@ -1,13 +1,11 @@
 # Personal Site
-Follow here for my attempts to build a functional personal website for myself.
+This is the source course for my personal website, viewable at [isabellekmiller.com](http://isabellekmiller.com). It is a static page built in React / Redux and Node.js and hosted on Github Pages.
+
 
 # TODOS
 * css media query to make page dynamically resize for mobile
-* add animations
-* make carousel component repo
 * language option (longterm)
+* add section for instafeed
 
-
-In the meantime, do check out my [Instagram](https://www.instagram.com/belleandcompass/) or my [LinkedIn profile](https://www.linkedin.com/in/isabelle-miller/).
 
 Base code sourced from [this repo](https://github.com/minqi/webreactants).
