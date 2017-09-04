@@ -2,7 +2,6 @@ require('../../stylesheets/landingcarousel.scss')
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { uniqueId } from 'lodash';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class LandingCarousel extends Component {
