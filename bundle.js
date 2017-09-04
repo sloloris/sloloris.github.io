@@ -11779,7 +11779,7 @@ var LandingCarousel = function (_Component) {
           transitionLeaveTimeout: 300 },
         _react2.default.createElement(
           'div',
-          { className: 'selected-item', key: (0, _lodash.uniqueId)() },
+          { className: 'selected-item', key: this.props.currentViewIndex },
           contents
         )
       );
