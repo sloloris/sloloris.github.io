@@ -23,7 +23,7 @@ class LandingCarousel extends Component {
           transitionAppearTimeout={500}
           transitionEnterTimeout={700}
           transitionLeaveTimeout={300}>
-        <div className='selected-item' key={uniqueId()}>
+        <div className='selected-item' key={this.props.currentViewIndex}>
           { contents }
         </div>
       </ReactCSSTransitionGroup>
