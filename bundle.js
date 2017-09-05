@@ -11602,110 +11602,10 @@ exports.default = Experience;
 
 /***/ }),
 /* 105 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(7);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(11);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-__webpack_require__(121);
-
-var Experience = function (_Component) {
-  _inherits(Experience, _Component);
-
-  function Experience() {
-    _classCallCheck(this, Experience);
-
-    return _possibleConstructorReturn(this, (Experience.__proto__ || Object.getPrototypeOf(Experience)).apply(this, arguments));
-  }
-
-  _createClass(Experience, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'div',
-          { className: 'project-section' },
-          _react2.default.createElement(
-            'div',
-            { className: 'experience-section-header' },
-            'Projects'
-          ),
-          _react2.default.createElement(
-            'ul',
-            { className: 'list' },
-            _react2.default.createElement(
-              'li',
-              null,
-              'FriendKeeper - a simple email-automation app to help you stay in touch with friends and family with minimal effort. Stack: React/Redux, JS, Python, Flask, Postgres, Google APIs, OAuth2.0.',
-              _react2.default.createElement('br', null),
-              _react2.default.createElement(
-                'a',
-                { href: 'https://github.com/sloloris/hb-final-project', target: '_blank' },
-                'See it on Github.'
-              )
-            ),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(
-                'a',
-                { href: 'http://isabellekmiller.com/IsabelleandDiegosFinalResearchProject/' },
-                'Ethnic Diversity and Political Rights'
-              ),
-              ' - my very first foray into coding, this page is simply a presentation of a pooled OLS model examining the effect of ethnic fractionalization on the political rights of participation across 65 countries, completed with a friend for a graduate school class on R for quantitative social science analysis. It is meant to be completely reproducible. ',
-              _react2.default.createElement(
-                'a',
-                { href: 'https://github.com/sloloris/IsabelleandDiegosFinalResearchProject/tree/gh-pages/Assignment3', target: '_blank' },
-                'Click here'
-              ),
-              ' to view the R code used to scrape, clean, and reshape the data, to produce the graphs and charts using R libraries such as ggmap, stargazer, rworldmap, & others, and to run the final analysis.'
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'see-linkedin' },
-          'For information on my educational background and work experience, please ',
-          _react2.default.createElement(
-            'a',
-            { href: 'https://www.linkedin.com/in/isabelle-miller/', target: '_blank' },
-            'see my LinkedIn.'
-          )
-        )
-      );
-    }
-  }]);
-
-  return Experience;
-}(_react.Component);
-
-exports.default = Experience;
+throw new Error("Module build failed: SyntaxError: Unterminated JSX contents (27:12)\n\n\u001b[0m \u001b[90m 25 | \u001b[39m          \u001b[33mFor\u001b[39m information on my educational background and work experience\u001b[33m,\u001b[39m please \u001b[33m<\u001b[39m\u001b[33ma\u001b[39m href\u001b[33m=\u001b[39m\u001b[32m'https://www.linkedin.com/in/isabelle-miller/'\u001b[39m target\u001b[33m=\u001b[39m\u001b[32m'_blank'\u001b[39m\u001b[33m>\u001b[39msee my \u001b[33mLinkedIn\u001b[39m\u001b[33m.\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33ma\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 26 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 | \u001b[39m    )\n \u001b[90m 29 | \u001b[39m  }\n \u001b[90m 30 | \u001b[39m}\u001b[0m\n");
 
 /***/ }),
 /* 106 */
@@ -13174,12 +13074,7 @@ module.exports = exports['default'];
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 121 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
+/* 121 */,
 /* 122 */
 /***/ (function(module, exports) {
 
