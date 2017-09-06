@@ -11686,7 +11686,13 @@ var Experience = function (_Component) {
             _react2.default.createElement(
               'a',
               { href: 'https://www.linkedin.com/in/isabelle-miller/', target: '_blank' },
-              'see my LinkedIn.'
+              'see my LinkedIn'
+            ),
+            ' or ',
+            _react2.default.createElement(
+              'a',
+              { href: '/IMiller_resume.pdf', target: '_blank' },
+              'click here to download my r\xE9sum\xE9.'
             )
           )
         )
