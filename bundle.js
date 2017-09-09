@@ -11692,7 +11692,7 @@ var Experience = function (_Component) {
             _react2.default.createElement(
               'a',
               { href: '/IMiller_resume.pdf', target: '_blank' },
-              'click here to download my r\xE9sum\xE9.'
+              'click here to download my resume.'
             )
           )
         )
