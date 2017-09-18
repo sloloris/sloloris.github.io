@@ -11740,7 +11740,7 @@ var Experience = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'see-linkedin' },
+            { className: 'see-linkedin bold-text' },
             'For more information on my work experience, please ',
             _react2.default.createElement(
               'a',

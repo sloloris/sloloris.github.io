@@ -39,7 +39,7 @@ class Experience extends Component {
               <br />
               <span className='bold-text'>High School Exchange, American Field Service</span> - spent senior year of high school in Lago Puelo, Argentina living with a host family and attending a local high school.
           </div>
-          <div className='see-linkedin'>
+          <div className='see-linkedin bold-text'>
             For more information on my work experience, please <a href='https://www.linkedin.com/in/isabelle-miller/' target='_blank'>see my LinkedIn</a> or <a href='/IMiller_resume.pdf' target="_blank">click here to download my resume.</a>
           </div>
         </div>
