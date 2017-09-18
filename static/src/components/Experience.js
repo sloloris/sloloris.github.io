@@ -9,6 +9,9 @@ class Experience extends Component {
   render() {
     return(
       <div>
+        <div className='see-linkedin bold-text'>
+          To see information on my work experience, please <a href='https://www.linkedin.com/in/isabelle-miller/' target='_blank'>see my LinkedIn</a> or <a href='/IMiller_resume.pdf' target="_blank">click here to download my resume.</a>
+        </div>
         <div className='project-section'>
           <div className='experience-section-header'>
             Projects
@@ -38,9 +41,6 @@ class Experience extends Component {
               <br />
               <br />
               <span className='bold-text'>High School Exchange, American Field Service</span> - spent senior year of high school in Lago Puelo, Argentina living with a host family and attending a local high school.
-          </div>
-          <div className='see-linkedin bold-text'>
-            For more information on my work experience, please <a href='https://www.linkedin.com/in/isabelle-miller/' target='_blank'>see my LinkedIn</a> or <a href='/IMiller_resume.pdf' target="_blank">click here to download my resume.</a>
           </div>
         </div>
     </div>

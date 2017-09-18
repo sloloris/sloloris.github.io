@@ -11648,6 +11648,22 @@ var Experience = function (_Component) {
         null,
         _react2.default.createElement(
           'div',
+          { className: 'see-linkedin bold-text' },
+          'To see information on my work experience, please ',
+          _react2.default.createElement(
+            'a',
+            { href: 'https://www.linkedin.com/in/isabelle-miller/', target: '_blank' },
+            'see my LinkedIn'
+          ),
+          ' or ',
+          _react2.default.createElement(
+            'a',
+            { href: '/IMiller_resume.pdf', target: '_blank' },
+            'click here to download my resume.'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
           { className: 'project-section' },
           _react2.default.createElement(
             'div',
@@ -11737,22 +11753,6 @@ var Experience = function (_Component) {
               'High School Exchange, American Field Service'
             ),
             ' - spent senior year of high school in Lago Puelo, Argentina living with a host family and attending a local high school.'
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'see-linkedin bold-text' },
-            'For more information on my work experience, please ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://www.linkedin.com/in/isabelle-miller/', target: '_blank' },
-              'see my LinkedIn'
-            ),
-            ' or ',
-            _react2.default.createElement(
-              'a',
-              { href: '/IMiller_resume.pdf', target: '_blank' },
-              'click here to download my resume.'
-            )
           )
         )
       );
