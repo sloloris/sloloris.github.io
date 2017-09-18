@@ -11659,7 +11659,7 @@ var Experience = function (_Component) {
             { className: 'list project-list' },
             _react2.default.createElement(
               'span',
-              { 'class': 'bold-text' },
+              { className: 'bold-text' },
               'FriendKeeper'
             ),
             ' - a simple email-automation app to help you stay in touch with friends and family with minimal effort. Stack: React/Redux, JS, Python, Flask, Postgres, Google APIs, OAuth2.0.',
@@ -11673,7 +11673,7 @@ var Experience = function (_Component) {
             _react2.default.createElement('br', null),
             _react2.default.createElement(
               'span',
-              { 'class': 'bold-text' },
+              { className: 'bold-text' },
               _react2.default.createElement(
                 'a',
                 { href: 'http://isabellekmiller.com/IsabelleandDiegosFinalResearchProject/' },
@@ -11690,7 +11690,6 @@ var Experience = function (_Component) {
           )
         ),
         _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
         _react2.default.createElement(
           'div',
           { className: 'education-section' },
@@ -11704,7 +11703,7 @@ var Experience = function (_Component) {
             { className: 'list education-list' },
             _react2.default.createElement(
               'span',
-              { 'class': 'bold-text' },
+              { className: 'bold-text' },
               'Software Engineering Fellowship, Hackbright Academy (2017)'
             ),
             ' - a 12-week fullstack web development intensive course for women. The curriculum included Command Line, Git, Python, Flask, PostgreSQL, SQLAlchemy, JavaScript, HTML/CSS, and computer science fundamentals.',
@@ -11712,7 +11711,7 @@ var Experience = function (_Component) {
             _react2.default.createElement('br', null),
             _react2.default.createElement(
               'span',
-              { 'class': 'bold-text' },
+              { className: 'bold-text' },
               'Master of Public Policy, Hertie School of Governance (2016)'
             ),
             ' - two-year Master\'s program with a focus on statistical policy analysis in Berlin, Germany. Extracurricular activities during that time included running communications for the ',
@@ -11726,7 +11725,7 @@ var Experience = function (_Component) {
             _react2.default.createElement('br', null),
             _react2.default.createElement(
               'span',
-              { 'class': 'bold-text' },
+              { className: 'bold-text' },
               'Bachelor of Arts, International Relations and Linguistics, Tulane University (2012)'
             ),
             ' - Presidential Scholarship ($24k/year), minor in Architecture, Fall 2012 study abroad at the University of Buenos Aires. Extracurricular activities included English teaching and tutoring as well as integration classes for immigrants with the Catholic Archdiocese of New Orleans and German Club.',
@@ -11734,7 +11733,7 @@ var Experience = function (_Component) {
             _react2.default.createElement('br', null),
             _react2.default.createElement(
               'span',
-              { 'class': 'bold-text' },
+              { className: 'bold-text' },
               'High School Exchange, American Field Service'
             ),
             ' - spent senior year of high school in Lago Puelo, Argentina living with a host family and attending a local high school.'
