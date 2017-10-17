@@ -11927,7 +11927,7 @@ LandingMenu.propTypes = {
   onClickRender: _propTypes2.default.func.isRequired
 };
 LandingMenu.defaultProps = {
-  onClickRender: console.log('oops'),
+  onClickRender: console.log('hello there'),
   currentViewIndex: 0
 };
 exports.default = LandingMenu;

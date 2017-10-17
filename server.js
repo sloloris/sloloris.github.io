@@ -17,10 +17,10 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 
 // Include static assets. Not advised for production
-app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.static(path.join(__dirname, '')));
 
 // set up nunjucks for templating. You can use whatever
-app.set('templates', path.join(__dirname, '/static/templates'));
+app.set('templates', path.join(__dirname, ''));
 var env = nunjucks.configure(app.get('templates'), {
     autoescape: false,
     express:    app

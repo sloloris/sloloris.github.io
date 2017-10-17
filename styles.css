@@ -12,6 +12,12 @@
 
 .menu-item {
   margin: 0 0 8px 0; }
+
+@media screen and (max-width: 667) {
+  .menu-item-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; } }
 .slide-enter {
   opacity: 0;
   transform: translateY(100%); }

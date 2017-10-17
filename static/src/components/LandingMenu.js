@@ -13,7 +13,7 @@ class LandingMenu extends Component {
   }
 
   static defaultProps = {
-    onClickRender: console.log('oops'),
+    onClickRender: console.log('hello there'),
     currentViewIndex: 0,
   }
 
