@@ -11569,7 +11569,7 @@ var Experience = function (_Component) {
         null,
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'header-text' },
           _react2.default.createElement(
             'p',
             { className: 'name' },
