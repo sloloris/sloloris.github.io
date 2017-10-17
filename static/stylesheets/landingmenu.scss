@@ -21,7 +21,7 @@
   .menu-item-list {
     display: flex;
     flex-flow: row;
-    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
   }
   .menu-item {
     margin: 0 0 8px 0;
