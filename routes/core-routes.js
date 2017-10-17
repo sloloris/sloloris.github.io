@@ -1,7 +1,7 @@
 module.exports = function(app) {
 
    app.get('/', function(req, res){
-    var title = 'Starter app';
+    var title = 'Isabelle Miller';
     res.render('index.html');
   });
 
