@@ -11965,11 +11965,11 @@ var Projects = function (_Component) {
               { className: 'bold-text' },
               _react2.default.createElement(
                 'a',
-                { href: 'http://isabellekmiller.com/neuland-temp/', target: '_blank' },
+                { href: 'https://neuland21.github.io/', target: '_blank' },
                 'Neuland21'
               )
             ),
-            ' - As a remote cofounder of a think tank focused on revitalizing rural Germany, I dedicate several hours of free time a week to helping develop the organization\'s values and activities - and its website (in progress). ',
+            ' - As technical cofounder of a think tank focused on revitalizing rural Germany, I dedicate several hours of free time a week to helping develop the organization\'s values and activities - and its website (in progress). ',
             _react2.default.createElement(
               'a',
               { href: 'https://github.com/Neuland21/neuland21.github.io', target: '_blank' },
@@ -12006,13 +12006,13 @@ var Projects = function (_Component) {
                 'Ethnic Diversity and Political Rights'
               )
             ),
-            ' - my very first foray into coding, this page is simply a presentation of a basic pooled model examining the effect of ethnic fractionalization on the political rights of participation across 65 countries, completed with a friend for a graduate school class on R for quantitative social science analysis. Created as a learning experience for coding in R and meant to be completely reproducible. ',
+            ' - this page is an academic presentation of a basic pooled model examining the effect of ethnic fractionalization on the political rights of participation across 65 countries, completed with a friend for a graduate school class on R for quantitative social science analysis. Created as a learning experience for coding in R and meant to be completely reproducible. ',
             _react2.default.createElement(
               'a',
               { href: 'https://github.com/sloloris/IsabelleandDiegosFinalResearchProject/tree/gh-pages/Assignment3', target: '_blank' },
-              'Click here'
+              'Click here to view the code'
             ),
-            ' to view the R code used to scrape, clean, and reshape the data, to produce the graphs and charts using R libraries such as ggmap, stargazer, rworldmap, & others, and to run the final analysis.'
+            '.'
           )
         ),
         _react2.default.createElement('br', null)
