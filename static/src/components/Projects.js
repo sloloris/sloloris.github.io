@@ -11,7 +11,7 @@ class Projects extends Component {
       <div>
         <div className='project-section'>
           <div className='list project-list'>
-            <span className='bold-text'><a href='https://neuland21.github.io/' target='_blank'>Neuland21</a></span> - As a remote cofounder of a think tank focused on revitalizing rural Germany, I dedicate several hours of free time a week to helping develop the organization's values and activities - and its website (in progress). <a href='https://github.com/Neuland21/neuland21.github.io' target='_blank'>See the code on Github.</a>
+            <span className='bold-text'><a href='http://isabellekmiller.com/neuland-temp/' target='_blank'>Neuland21</a></span> - As a remote cofounder of a think tank focused on revitalizing rural Germany, I dedicate several hours of free time a week to helping develop the organization's values and activities - and its website (in progress). <a href='https://github.com/Neuland21/neuland21.github.io' target='_blank'>See the code on Github.</a>
             <br />
             <br />
             <span className='bold-text'>FriendKeeper</span> - a simple email-automation app to help you stay in touch with friends and family with minimal effort. Stack: React/Redux, JS, Python, Flask, Postgres, Google APIs, OAuth2.0. 

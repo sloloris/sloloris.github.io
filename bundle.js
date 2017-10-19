@@ -11965,7 +11965,7 @@ var Projects = function (_Component) {
               { className: 'bold-text' },
               _react2.default.createElement(
                 'a',
-                { href: 'https://neuland21.github.io/', target: '_blank' },
+                { href: 'http://isabellekmiller.com/neuland-temp/', target: '_blank' },
                 'Neuland21'
               )
             ),
