@@ -3,9 +3,9 @@ This is the source course for my personal website, viewable at [isabellekmiller.
 
 
 # TODOS
-* css media query to make page dynamically resize for mobile
-* language option (longterm)
+* language localization
 * add section for instafeed
+* fix scrolling bug with menu
 
 
 Base code sourced from [this repo](https://github.com/minqi/webreactants).
