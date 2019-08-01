@@ -13,3 +13,4 @@ tmp
 static/bower_components/
 static/build/
 static/stylesheets/css/
+package-lock.json
