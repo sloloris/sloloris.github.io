@@ -5,7 +5,7 @@ import LandingMenuContainer from '../containers/LandingMenuContainer';
 import LandingCarouselContainer from '../containers/LandingCarouselContainer';
 import Experience from './Experience';
 import About from './About';
-import Projects from './Projects';
+import Education from './Education';
 
 class Landing extends Component {
 
@@ -13,7 +13,7 @@ class Landing extends Component {
     return(
       <div className='landing-contents'>
         <div className='menu-container'>
-          <LandingMenuContainer menuItems={['ABOUT', 'PROJECTS', 'EXPERIENCE']} />
+          <LandingMenuContainer menuItems={['ABOUT', 'EDUCATION', 'EXPERIENCE']} />
           <div className='logo-container'>
             <a href='https://github.com/sloloris' target='_blank'><img src='/images/github_logo.png' className='logo-img' /></a>
             <a href='https://www.instagram.com/belleandcompass/' target='_blank'><img src='/images/instagram_logo.png' className='logo-img' /></a>
@@ -24,7 +24,7 @@ class Landing extends Component {
         <div className='carousel-container'>
           <LandingCarouselContainer 
             viewItems={[<div className='carousel-item'><About /></div>,
-                        <div className='carousel-item'><Projects /></div>, 
+                        <div className='carousel-item'><Education /></div>, 
                         <div className='carousel-item'><Experience /></div>]} />
         </div>
       </div>
