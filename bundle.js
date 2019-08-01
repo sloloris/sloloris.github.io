@@ -11387,7 +11387,7 @@ var _LandingCarouselContainer = __webpack_require__(116);
 
 var _LandingCarouselContainer2 = _interopRequireDefault(_LandingCarouselContainer);
 
-var _Experience = __webpack_require__(112);
+var _Experience = __webpack_require__(113);
 
 var _Experience2 = _interopRequireDefault(_Experience);
 
@@ -11395,9 +11395,9 @@ var _About = __webpack_require__(111);
 
 var _About2 = _interopRequireDefault(_About);
 
-var _Projects = __webpack_require__(115);
+var _Education = __webpack_require__(112);
 
-var _Projects2 = _interopRequireDefault(_Projects);
+var _Education2 = _interopRequireDefault(_Education);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11427,7 +11427,7 @@ var Landing = function (_Component) {
         _react2.default.createElement(
           'div',
           { className: 'menu-container' },
-          _react2.default.createElement(_LandingMenuContainer2.default, { menuItems: ['ABOUT', 'PROJECTS', 'EXPERIENCE'] }),
+          _react2.default.createElement(_LandingMenuContainer2.default, { menuItems: ['ABOUT', 'EDUCATION', 'EXPERIENCE'] }),
           _react2.default.createElement(
             'div',
             { className: 'logo-container' },
@@ -11459,7 +11459,7 @@ var Landing = function (_Component) {
             ), _react2.default.createElement(
               'div',
               { className: 'carousel-item' },
-              _react2.default.createElement(_Projects2.default, null)
+              _react2.default.createElement(_Education2.default, null)
             ), _react2.default.createElement(
               'div',
               { className: 'carousel-item' },
@@ -11617,7 +11617,7 @@ var About = function (_Component) {
         _react2.default.createElement(
           'div',
           { className: 'about-text' },
-          'Hi, my name is Isabelle. I like to code, travel, write, bake, sing, and think about how tech can be harnessed to improve governance, social equality, equity in education, and quality of life in the developing world. I also hold a Master of Public Policy from the Hertie School of Governance in Berlin and speak German, Spanish, Thai, and rusty Portuguese. I prefer my coffee with milk and my cookies with chocolate.',
+          'Hi, my name is Isabelle. I like to code, travel, write, bake, sing, and think about how tech can be harnessed to help the earth and to improve governance, social equality, and equity in education. I also hold a Master of Public Policy from the Hertie School of Governance in Berlin and speak German, Spanish, Thai, and rusty Portuguese. I prefer my coffee with milk and my cookies with chocolate.',
           _react2.default.createElement('br', null),
           _react2.default.createElement('br', null),
           'To contact me directly, feel free to reach out at me @ isabellekmiller.com.'
@@ -11633,6 +11633,111 @@ exports.default = About;
 
 /***/ }),
 /* 112 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(10);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+__webpack_require__(63);
+
+var Education = function (_Component) {
+  _inherits(Education, _Component);
+
+  function Education() {
+    _classCallCheck(this, Education);
+
+    return _possibleConstructorReturn(this, (Education.__proto__ || Object.getPrototypeOf(Education)).apply(this, arguments));
+  }
+
+  _createClass(Education, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'div',
+          { className: 'education-section' },
+          _react2.default.createElement(
+            'div',
+            { className: 'section-header' },
+            'Education'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'list education-list' },
+            _react2.default.createElement(
+              'span',
+              { className: 'bold-text' },
+              'Software Engineering Fellowship, Hackbright Academy (2017)'
+            ),
+            ' - a 12-week fullstack web development intensive course for women. The curriculum included Command Line, Git, Python, Flask, PostgreSQL, SQLAlchemy, JavaScript, HTML/CSS, and computer science fundamentals.',
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'bold-text' },
+              'Master of Public Policy, Hertie School of Governance (2016)'
+            ),
+            ' - two-year Master\'s program with a focus on statistical policy analysis in Berlin, Germany. Extracurricular activities during that time included running communications for the ',
+            _react2.default.createElement(
+              'a',
+              { href: 'http://www.policyleadershipinstitute.org/events/eppc-2015-european-public-policy-conference-warsaw', target: '_blank' },
+              '2015 student-organized European Public Policy Conference'
+            ),
+            ' in Warsaw; organizing seminars and workshops on topics related to social innovation and the European tech scene for the Hertie Social Impact Collaborative, a student-alumni initiative associated with and funded by the Hertie Foundation; and volunteering at an emergency refugee shelter of the Berliner Stadtsmission during and after the 2015-2016 refugee crisis.',
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'bold-text' },
+              'Bachelor of Arts, International Relations and Linguistics, Tulane University (2012)'
+            ),
+            ' - Presidential Scholarship ($24k/year), minor in Architecture, Fall 2012 study abroad at the University of Buenos Aires. Extracurricular activities included English teaching and tutoring as well as integration classes for immigrants with the Catholic Archdiocese of New Orleans and German Club.',
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'bold-text' },
+              'High School Exchange, American Field Service'
+            ),
+            ' - spent senior year of high school in Lago Puelo, Argentina living with a host family and attending a local high school.'
+          )
+        ),
+        _react2.default.createElement('br', null)
+      );
+    }
+  }]);
+
+  return Education;
+}(_react.Component);
+
+exports.default = Education;
+
+/***/ }),
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11692,55 +11797,6 @@ var Experience = function (_Component) {
             { href: '/IMiller_resume.pdf', target: '_blank' },
             'click here to download my resume.'
           )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'education-section' },
-          _react2.default.createElement(
-            'div',
-            { className: 'experience-section-header' },
-            'Education'
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'list education-list' },
-            _react2.default.createElement(
-              'span',
-              { className: 'bold-text' },
-              'Software Engineering Fellowship, Hackbright Academy (2017)'
-            ),
-            ' - a 12-week fullstack web development intensive course for women. The curriculum included Command Line, Git, Python, Flask, PostgreSQL, SQLAlchemy, JavaScript, HTML/CSS, and computer science fundamentals.',
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'span',
-              { className: 'bold-text' },
-              'Master of Public Policy, Hertie School of Governance (2016)'
-            ),
-            ' - two-year Master\'s program with a focus on statistical policy analysis in Berlin, Germany. Extracurricular activities during that time included running communications for the ',
-            _react2.default.createElement(
-              'a',
-              { href: 'http://www.policyleadershipinstitute.org/events/eppc-2015-european-public-policy-conference-warsaw', target: '_blank' },
-              '2015 student-organized European Public Policy Conference'
-            ),
-            ' in Warsaw; organizing seminars and workshops on topics related to social innovation and the European tech scene for the Hertie Social Impact Collaborative, a student-alumni initiative associated with and funded by the Hertie Foundation; and volunteering at an emergency refugee shelter of the Berliner Stadtsmission during and after the 2015-2016 refugee crisis.',
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'span',
-              { className: 'bold-text' },
-              'Bachelor of Arts, International Relations and Linguistics, Tulane University (2012)'
-            ),
-            ' - Presidential Scholarship ($24k/year), minor in Architecture, Fall 2012 study abroad at the University of Buenos Aires. Extracurricular activities included English teaching and tutoring as well as integration classes for immigrants with the Catholic Archdiocese of New Orleans and German Club.',
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'span',
-              { className: 'bold-text' },
-              'High School Exchange, American Field Service'
-            ),
-            ' - spent senior year of high school in Lago Puelo, Argentina living with a host family and attending a local high school.'
-          )
         )
       );
     }
@@ -11752,7 +11808,7 @@ var Experience = function (_Component) {
 exports.default = Experience;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11828,7 +11884,7 @@ LandingCarousel.propTypes = {
 exports.default = LandingCarousel;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11920,123 +11976,6 @@ LandingMenu.defaultProps = {
 exports.default = LandingMenu;
 
 /***/ }),
-/* 115 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(7);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(10);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-__webpack_require__(63);
-
-var Projects = function (_Component) {
-  _inherits(Projects, _Component);
-
-  function Projects() {
-    _classCallCheck(this, Projects);
-
-    return _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).apply(this, arguments));
-  }
-
-  _createClass(Projects, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'div',
-          { className: 'project-section' },
-          _react2.default.createElement(
-            'div',
-            { className: 'list project-list' },
-            _react2.default.createElement(
-              'span',
-              { className: 'bold-text' },
-              _react2.default.createElement(
-                'a',
-                { href: 'https://neuland21.github.io/', target: '_blank' },
-                'Neuland21'
-              )
-            ),
-            ' - As technical cofounder of a think tank focused on revitalizing rural Germany, I dedicate several hours of free time a week to helping develop the organization\'s values and activities - and its website (in progress). ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://github.com/Neuland21/neuland21.github.io', target: '_blank' },
-              'See the code on Github.'
-            ),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'span',
-              { className: 'bold-text' },
-              'FriendKeeper'
-            ),
-            ' - a simple email-automation app to help you stay in touch with friends and family with minimal effort. Stack: React/Redux, JS, Python, Flask, Postgres, Google APIs, OAuth2.0.',
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'a',
-              { href: 'https://github.com/sloloris/hb-final-project', target: '_blank' },
-              'See the code on Github'
-            ),
-            ' or a ',
-            _react2.default.createElement(
-              'a',
-              { href: 'http://isabellekmiller.com/friendkeeper-demo/' },
-              'demo (frontend only) here.'
-            ),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              'span',
-              { className: 'bold-text' },
-              _react2.default.createElement(
-                'a',
-                { href: 'http://isabellekmiller.com/IsabelleandDiegosFinalResearchProject/' },
-                'Ethnic Diversity and Political Rights'
-              )
-            ),
-            ' - this page is an academic presentation of a basic pooled model examining the effect of ethnic fractionalization on the political rights of participation across 65 countries, completed with a friend for a graduate school class on R for quantitative social science analysis. Created as a learning experience for coding in R and meant to be completely reproducible. ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://github.com/sloloris/IsabelleandDiegosFinalResearchProject/tree/gh-pages/Assignment3', target: '_blank' },
-              'Click here to view the code'
-            ),
-            '.'
-          )
-        ),
-        _react2.default.createElement('br', null)
-      );
-    }
-  }]);
-
-  return Projects;
-}(_react.Component);
-
-exports.default = Projects;
-
-/***/ }),
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12049,7 +11988,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _reactRedux = __webpack_require__(35);
 
-var _LandingCarousel = __webpack_require__(113);
+var _LandingCarousel = __webpack_require__(114);
 
 var _LandingCarousel2 = _interopRequireDefault(_LandingCarousel);
 
@@ -12084,7 +12023,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _reactRedux = __webpack_require__(35);
 
-var _LandingMenu = __webpack_require__(114);
+var _LandingMenu = __webpack_require__(115);
 
 var _LandingMenu2 = _interopRequireDefault(_LandingMenu);
 
