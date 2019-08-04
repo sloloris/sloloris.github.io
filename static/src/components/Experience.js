@@ -10,7 +10,7 @@ class Experience extends Component {
     return(
       <div>
         <div className='see-linkedin bold-text'>
-          To see information on my work experience, please <a href='https://www.linkedin.com/in/isabelle-miller/' target='_blank'>see my LinkedIn</a> or <a href='/IMiller_resume.pdf' target="_blank">click here to download my resume.</a>
+          To see information on my work experience, please <a href='https://www.linkedin.com/in/isabelle-miller/' target='_blank'>see my LinkedIn</a> or <a href='/IMiller_CV_English.pdf' target="_blank">click here to view/download</a> my English-language CV/Lebenslauf.
         </div>
     </div>
     )

@@ -15,7 +15,7 @@ class About extends Component {
           Hi, my name is Isabelle. I like to code, travel, write, bake, sing, and think about how tech can be harnessed to help the earth and to improve governance, social equality, and equity in education. I also hold a Master of Public Policy from the Hertie School of Governance in Berlin and speak German, Spanish, Thai, and rusty Portuguese. I prefer my coffee with milk and my cookies with chocolate.
           <br />
           <br />
-          To contact me directly, feel free to reach out at me @ isabellekmiller.com.
+          To contact me directly, feel free to reach out at isabelle [dot] k [dot] miller [at] gmail.com.
         </div>
       </div>
     )
