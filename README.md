@@ -5,7 +5,7 @@ This is the source course for my personal website, viewable at [isabellekmiller.
 # TODOS
 * language localization
 * add section for instafeed
-* fix scrolling bug with menu
+* ~~fix scrolling bug with menu~~
 
 
 Base code sourced from [this repo](https://github.com/minqi/webreactants).
