@@ -11612,7 +11612,7 @@ var About = function (_Component) {
             { className: 'name' },
             'Isabelle Miller'
           ),
-          ' is a software engineer & policy professional.*'
+          ' is a software engineer & policy professional based in London, UK.*'
         ),
         _react2.default.createElement(
           'div',
@@ -11623,7 +11623,7 @@ var About = function (_Component) {
           'To contact me directly, feel free to reach out at isabelle [dot] k [dot] miller [at] gmail.com.',
           _react2.default.createElement('br', null),
           _react2.default.createElement('br', null),
-          '*As of August 2019, I am currently temporarily based in Berlin, Germany, for a fellowship ending in October. Starting in November, I will be seeking new opportunities.'
+          '*As of December 2019, I am currently seeking new opportunities.'
         )
       );
     }
