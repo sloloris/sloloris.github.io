@@ -11612,7 +11612,7 @@ var About = function (_Component) {
             { className: 'name' },
             'Isabelle Miller'
           ),
-          ' is a software engineer & policy professional based in London, UK.'
+          ' is a software engineer & policy professional based in London, UK*.'
         ),
         _react2.default.createElement(
           'div',
@@ -11621,6 +11621,9 @@ var About = function (_Component) {
           _react2.default.createElement('br', null),
           _react2.default.createElement('br', null),
           'To contact me directly, feel free to reach out at isabelle [dot] k [dot] miller [at] gmail.com.',
+          _react2.default.createElement('br', null),
+          _react2.default.createElement('br', null),
+          '* Working remotely out of Berlin as of 2021.',
           _react2.default.createElement('br', null)
         )
       );
